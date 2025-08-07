@@ -10,7 +10,9 @@ const nextConfig = {
 
   // EdgeOne 部署配置
   trailingSlash: false,
-  distDir: '.next',
+  
+  // 确保作为服务器应用运行，而不是静态导出
+  output: 'standalone',
 
   // Uncoment to add domain whitelist
   images: {
