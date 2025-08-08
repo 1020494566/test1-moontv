@@ -6,7 +6,7 @@
 export const STATIC_CONFIG = {
   // ===== 核心认证配置 =====
   // 系统登录密码（明文设置）
-  PASSWORD: '123...qqqA',
+  PASSWORD: 'aa666888',
 
   // 管理员用户名
   USERNAME: 'admin',
